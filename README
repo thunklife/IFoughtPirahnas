@@ -1,0 +1,4 @@
+This is a theme I developed while working on my personal website (typedstrong.com).
+It is based on the the default Orchard Template (Theme Machine), but supports fewer
+zones. It utilizes media queries to support a responsive design and is based on the
+320&Up framework from Andy Clarke.

@@ -1,0 +1,32 @@
+<Placement>
+  <!-- Customize where the shapes are rendered -->
+  <Match Path="~/">
+    <Place Parts_RoutableTitle="-" />
+  </Match>
+  <Match Path="~/Blog">
+    <Place Parts_RoutableTitle="-" />
+  </Match>
+<Place Parts_Tags_ShowTags="Alternate=Parts_Tags_ShowTags" />  
+<Match ContentType="Page">
+	  <Place Parts_Common_Metadata="-"/>
+  </Match>
+<Match ContentType="Blog">
+	  <Place Parts_Common_Metadata="-"/>
+  </Match>
+<Match DisplayType="Detail">
+        <Place Parts_Tags_ShowTags="Content: 9"/>
+    </Match>
+    <Match DisplayType="Summary">
+        <Place Parts_Tags_ShowTags="Content: 9"/>      
+    </Match>
+	
+  <Match Path="/About">
+
+  </Match>
+    <Match DisplayType="Detail">
+        <Place Parts_Title=""/>
+    </Match>
+    <Match DisplayType="Summary">
+        <Place Parts_Title_Summary=""/>
+    </Match>
+</Placement>

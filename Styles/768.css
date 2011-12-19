@@ -1,0 +1,29 @@
+﻿.aside-12 #layout-content, .aside-1 #layout-content, .aside-2 #layout-content
+    {
+        width: 71.48%;
+        float: left;
+        border-right: 1px solid #d4d4d4;
+    }
+.aside-12 .aside-first, .aside-12 .aside-second, .aside-1 .aside-first, .aside-1 .aside-second, .aside-2 .aside-first, .aside-2 .aside-second
+    {
+        width: 28.39%;
+        float: left;
+    }
+    
+    .aside-12 .aside-second
+    {
+        border-top: 1px solid #d4d4d4;
+    }
+    
+    .aside-1 .aside-first, .aside-12 .aside-first, .aside-2 .aside-second
+    {
+        border: 0;
+    }
+        
+/*3 zones on */
+.tripel-123 #layout-tripel > div { width:33%; float: left; } /* If zones 1, 2, 3 are on */
+
+.split-1234 #footer-quad > div
+{
+    width: 25%;
+}

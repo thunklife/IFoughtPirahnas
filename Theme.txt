@@ -1,0 +1,8 @@
+Name: I Fought Pirahnas
+Author: Jesse Williamson
+Website: http://typedstrong.com
+Description: A responsive grid based layout that supports multiple zones. This theme is based on the 320 & Up boilerplate created by Andy Clarke. As such, it required a custom Document.cshtml file. This theme also uses The Theme Machine as it's base for CSS and HTML structure. This theme supports a branding image at multiple resolutions for the header as well as touch icons for mobile devices. You'll want to replace these images...derp.
+Version: 1.0
+BaseTheme: TheThemeMachine
+Tags: Fluid, Grid, Responsive, Mobile, Minimal,
+Zones: Navigation, Messages, BeforeContent, Content, AfterContent, AsideFirst, AsideSecond, TripelFirst, TripelSecond, TripelThird, FooterQuadFirst, FooterQuadSecond, FooterQuadThird, FooterQuadFourth, Footer

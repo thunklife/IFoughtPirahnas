@@ -1,0 +1,17 @@
+﻿body
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.aside-12 #layout-content
+    {
+        width: 61.48%;
+    }
+
+.aside-12 .aside-first, .aside-12 .aside-second
+{
+    width: 19.21%;
+    float: left;
+    border: none;
+}
